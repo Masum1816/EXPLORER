@@ -1,0 +1,97 @@
+/* General page background */
+body.movie-bg {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card styling for form */
+.form-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom input styling */
+.input-custom {
+    background-color: #f1f1f1;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    color: #495057;
+}
+
+.input-custom:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+.custom-btn {
+    background-color: #007bff;
+    border: none;
+    font-size: 18px;
+    padding: 12px;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+.custom-btn:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+/* Movie cards layout */
+.row {
+    margin-top: 20px;
+}
+
+/* Movie card styling */
+.movie-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    padding: 15px;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+/* Movie poster styling */
+.poster-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Movie card content */
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.card-text {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Flex container for buttons */
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Horizontal rule customization */
+.custom-hr {
+    border: 1px solid #e9ecef;
+    margin-bottom: 30px;
+}
